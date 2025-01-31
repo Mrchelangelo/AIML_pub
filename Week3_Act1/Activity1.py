@@ -1,5 +1,4 @@
 """
-Author: Stefan Mörchen
 
 Solve Activity 1 from Week 3 in the AIML module. The Task requires to find a path from A to H in
 the graph:
