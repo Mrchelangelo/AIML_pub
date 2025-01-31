@@ -1,4 +1,6 @@
 # AIML_pub
 Repo to store and exchange Code for the activities of AIML Module
 
-Hey fellow students, this is my repo for AIML, where I upload the code for each activity I do, there will be directories for each activity, holding .py files, I used to solve it. When applying some search, I aim to visualise it aswell as writing the algorithm. Especially the algortims are not written with ChatGPT (or other GenAI) to really try and learn as much about the functionality of the algorithm. That means, that some of the code might be inefficient or/and messy. I am open for recommendations for improvements or questions about the code, you can reach me in the discord groupchat, my name there is: Mörchen.
+Hey fellow students, this is my repo for the AIML module, where I upload the code for each activity I complete. There will be directories for each activity, containing the .py files I used to solve them. When applying search algorithms, I aim to visualise the process as well as implement the algorithm itself.
+
+The algorithms are not written using ChatGPT (or other generative AI) in order to truly understand their functionality. That means some of the code might be inefficient or messy. I’m open to suggestions for improvements or questions about the code. You can reach me on the Discord group chat, my name there is: Mörchen.
