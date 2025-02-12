@@ -1,5 +1,4 @@
 """
-Author: Stefan Mörchen
 Date: 03.01.2025
 Purpose: Solve Activity 1 from Week 3 in AIML - navigate a robot around obstacles
 Apply Tree Search for A* Algorithm with Manhattan Distance as heuristic
