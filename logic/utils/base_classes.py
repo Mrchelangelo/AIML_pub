@@ -153,7 +153,6 @@ class Knowledge:
                         for item in (sublist if isinstance(sublist, list) else sublist.get_symbols())))
 
     def _tautology_detection(self):
-    ##Not correct
         new_sentences = []
         for sentence in self._sentences:
             if isinstance(sentence, Conditional):
@@ -211,29 +210,3 @@ class Entailment:
 
 
 
-if __name__ == "__main__":
-    # Example usage
-    a = Symbol("A")
-    b = Symbol("B")
-    c = Symbol("C")
-
-    not_logic = NotLogic(a)
-    not_hyphen = NotHyphen(b)
-    and_expr = And(a, b, c)
-    or_expr = Or(not_logic, not_hyphen, c)
-    conditional_expr = Conditional(a, b)
-    biconditional_expr = Biconditional(a, c)
-
-    print(not_logic)  # Output: ¬A
-    print(not_hyphen)  # Output: -B
-    print(and_expr)  # Output: (A ∧ B ∧ C)
-    print(or_expr)  # Output: (¬A ∨ -B ∨ C)
-    print(conditional_expr)  # Output: (A → B)
-    print(biconditional_expr)  # Output: (A ↔ C)
-    knowledge = Knowledge(or_expr)
-    print(knowledge)
-    knowledge.add(NotLogic(a))
-    print(knowledge)
-    print(type(not_logic))
-
-    print([ele for ele in [["A", "B"], "A"]])
